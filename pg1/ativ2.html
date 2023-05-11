@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produto das matrizes</title>
+</head>
+<body>
+    <script>
+        function produto (ma) {
+            y = []
+            for (i = 0; i < ma.length; i++) {
+                var x = new Set(ma[i])
+                y.push(x)
+            }
+            
+            console.log(y)
+            return y 
+        }
+        alfa = [
+            [1,2,3],
+            [4,4,6],
+            [7,8,8]
+        ]
+        produto(alfa)
+    </script>
+</body>
+</html>

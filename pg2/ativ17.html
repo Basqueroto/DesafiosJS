@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menorstring</title>
+</head>
+<body>
+    <script>
+        function produto (ma) {
+            var y = ma[0]
+            for(var i = 0; i < ma.length; i++) {
+                if (ma[i].length < y.length) {
+                    y = ma[i] 
+                }
+            }
+
+            console.log(y);
+            return y 
+        }
+        alfa = ['jonas', 'arnold', 'igor', 'bruno']
+        produto(alfa)
+    </script>
+</body>
+</html>

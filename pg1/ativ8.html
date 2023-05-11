@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somaconst</title>
+</head>
+<body>
+    <script>
+        function produto (ma,c) {
+            let y = []
+            for (var i = 0; i < ma.length; i++) {
+                var x = []
+                for(var j = 0; j < ma[i].length; j++) {
+                    x.push(ma[i][j] + c)
+                }
+                y.push(x)
+            }
+
+            console.log(y);
+            return y 
+        }
+        alfa = [[1,2,3],[4,5,6],[7,8,9,10]]
+        produto(alfa,10)
+    </script>
+</body>
+</html>
